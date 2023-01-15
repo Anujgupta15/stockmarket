@@ -8,7 +8,7 @@ const Homepage = ({ setLoginUser }) => {
     getdata();
   }, []);
   const getdata = () => {
-    fetch(`https://stockmarket-3fs7.onrender.com/NSE`)
+    fetch(`https://stockmarket-wp1v.onrender.com/NSE`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(

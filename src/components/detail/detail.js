@@ -52,7 +52,7 @@ const Detail = (props) => {
     setCompany(e.target.value);
   };
   const getdata = (company) => {
-    fetch(`https://stockmarket-3fs7.onrender.com/` + company)
+    fetch(`https://stockmarket-wp1v.onrender.com/` + company)
       .then((response) => {
         if (!response.ok) {
           throw new Error(
